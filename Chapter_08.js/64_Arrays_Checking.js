@@ -1,0 +1,15 @@
+// Checking Arrays
+// check if something is an array
+
+// let result = Array.isArray([1, 2, 3])
+// let result1 = Array.isArray("a")
+// console.log(result) // True
+// console.log(result1) //False
+
+//every & some
+[80, 90, 85].every(s => s >= 70) //true
+[80, 60, 85].every(s => s >= 70) //false
+
+//some - AT LEAST ONE must passs
+[80, 60, 85].some(s => s >= 70) //false
+[80, 90, 85].some(s => s >= 70) //true
